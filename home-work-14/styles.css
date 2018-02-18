@@ -1,0 +1,27 @@
+
+
+.box {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+    top:0;
+    left:0;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+#form{
+    display: inline-block;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.diagram {
+    margin: 20px;
+}
+.block {
+    width: 50px;
+    height: 108px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.value{
+    background: green;
+    height: 0px;
+    transition: 0.9s;
+}
+.commission{
+    background: red;
+    height: 0px;
+    transition: 0.9s;
+}
+input[type="number"]{
+    width: 70px;
+    margin-left: 50px;
+}
+

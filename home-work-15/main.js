@@ -2,12 +2,13 @@ window.onload = function(){
 
     var rng = document.getElementById('rng');
     var number = document.getElementById('inpt');
-    var val = document.querySelector('.value');
+    var val = document.querySelector('.val');
     var commission = document.querySelector('.commission');
     var p = document.getElementById('one');
 
     rng.addEventListener('click', Range);
-    rng.addEventListener('mousemove', Range);
+    rng.addEventListener('change', Range);
+
 
     function Range (event){
         number.valueAsNumber = rng.valueAsNumber;
@@ -15,9 +16,8 @@ window.onload = function(){
         InputCommission();
     }
 
-    number.addEventListener('blur', MoveRange);
+    number.addEventListener('change', MoveRange);
     number.addEventListener('click', MoveRange);
-    number.addEventListener('mousedown', MoveRange);
 
     function MoveRange (event){
         rng.valueAsNumber = number.valueAsNumber;

@@ -27,9 +27,9 @@ window.onload = function() {
         var value = document.getElementById("speed").value;
         console.log(value);
         if (value != 9 ){
-            this.style.transition = "."+ value + "s";
+            this.style.transition = value + "s";
         } else{
-            this.style.transition = ".9s";
+            this.style.transition = "9s";
         }
         this.style.top = html.clientHeight - this.clientHeight - this.offsetTop + "px";
     }

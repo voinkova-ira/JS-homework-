@@ -84,6 +84,9 @@ Person.prototype.resetPosition = function(){
 
 var field = new Field(10,10);
 var person = new Person('V',1,1);
+var x=person.name
+
+
 field.changeSize(5,5);
 // console.dir(person);
 // field.renderField();

@@ -71,6 +71,8 @@ var supermath1 = new SuperMath();
 
 supermath.check();
 console.log(supermath);
+alert("1 = "+supermath.obj.rezult);
 
 supermath1.check();
 console.log(supermath1); 
+alert("2 = "+supermath1.obj.rezult);
